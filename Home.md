@@ -12,8 +12,8 @@
 
     
     
-*df-manager patching manual
-[df-manager](https://bitbucket.org/dfint/df-manager)
+* df-manager patching manual
+* [df-manager](https://bitbucket.org/dfint/df-manager)*
     
     
     
