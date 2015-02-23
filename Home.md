@@ -1,4 +1,4 @@
-# Dwarf Fortress i18n Project
+# Dwarf Fortress i18n Project Documentation
 
 ## Project parts:
 
