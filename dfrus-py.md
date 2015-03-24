@@ -10,7 +10,7 @@
     * **Usage:**
         * To add specific entries: `python file.exe + 0x123 0x345 0x567`
         * To remove specific entries: `python file.exe - 0x123 0x345 0x567`
-        * To remove a range of entries (eg. remove all the relocations of the old version of a procedure): `python file.exe -* 0x123 0x567`
+        * To remove a range of entries (eg. remove all the relocations of an old version of a procedure): `python file.exe -* 0x123 0x567`
 
 ## Importable modules
 
