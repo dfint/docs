@@ -4,7 +4,7 @@
 Language: Python 3
 ## Executable modules
 * **dfrus.py** - a script intended to be replacement of the `dfrus034.exe`/`dfint.exe`. Now it more or less functional, but needs more testing. Usage examples will be added soon.
-* **extract_strings.py** - a utility program which extracts hardcoded strings from the Dwarf Fortress.exe.
+* **extract_strings.py** - a utility program which extracts hardcoded strings from the Dwarf Fortress.exe. Compatible with Python2.7
     * **Usage:** `python extract_strings.py "Dwarf Fortress.exe" > stringdump.txt`
 * **edit_relocs.py** - a program to fix [relocation entries](https://en.wikipedia.org/wiki/Relocation_%28computing%29) of a file of the Portable Executable format.
     * **Usage:**
