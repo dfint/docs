@@ -1,7 +1,7 @@
 ## [< Home](https://bitbucket.org/dfint/dfint-docs/wiki/Home)
 
 # [dfrus-py](https://bitbucket.org/dfint/dfrus-py/src) subproject files:
-
+Language: Python 3
 ## Executable modules
 * **dfrus.py** - a script intended to be replacement of the `dfrus034.exe`/`dfint.exe`. Now it more or less functional, but needs more testing. Usage examples will be added soon.
 * **extract_strings.py** - a utility program which extracts hardcoded strings from the Dwarf Fortress.exe.
