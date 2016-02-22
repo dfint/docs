@@ -42,6 +42,11 @@ Notes:
 * `"d:\Games\df_42_06_win_s\Dwarf Fortress.exe"` must be replaced with the actual path to the Dwarf Fortress executable. The new (translated) executable will be created in the same directory as `Dwarf Fortress Patched.exe`.
 * `cp850` must be replaced with the appropriate codepage. See the previous section.
 
+## The last preparations and running the game
+
+* Edit init.txt in the `data\init` directory of the game, and make `[TRUETYPE:YES]` and `[PRINT_MODE:2D]` there.
+* Finally, run the `Dwarf Fortress Patched.exe`
+
 ## Contacts
 
 If you have troubles with some step here, you can write me a message, I will try to help you:
