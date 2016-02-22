@@ -1,3 +1,4 @@
+## [<< Home](Home)
 # How to apply translation from transifex to the Dwarf Fortress.exe
 
 ## Python 3 installation
