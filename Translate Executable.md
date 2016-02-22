@@ -42,7 +42,7 @@ python dfrus.py -p "d:\Games\df_42_06_win_s\Dwarf Fortress.exe" -d dictionary.cs
 
 Notes:
 
-* `"d:\...\Dwarf Fortress.exe"` must be replaced with the actual path to the Dwarf Fortress executable. The new (translated) executable will be created in the same directory under the name `Dwarf Fortress Patched.exe`.
+* `"d:\...\Dwarf Fortress.exe"` must be replaced with the actual path to the Dwarf Fortress executable. The new (translated) executable will be created in the same directory with the name `Dwarf Fortress Patched.exe`.
 * `cp850` must be replaced with the appropriate codepage. See the previous section.
 
 ## The last preparations and running the game
