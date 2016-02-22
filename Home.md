@@ -16,4 +16,9 @@
 * **[dfgettext](https://bitbucket.org/dfint/df-gettext-toolkit)** - a set of tools which are used to convert parts of files being translated to the [GNU gettext](http://www.gnu.org/software/gettext/) format and aback. Helps make translation with the specialized tools both offline (like [poedit](http://poedit.net/)) and online (like [transifex.com](http://transifex.com/)).
 * **[www.transifex.com/dwarf-fortress-translation/dwarf-fortress/](https://www.transifex.com/dwarf-fortress-translation/dwarf-fortress/)** - a place where we perform translation.
 
+## Instructions for translators
+* How to apply translation from transifex to exe-file
+* How to apply translation from transifex to the text files
+    * How to unpack packed text files (help, some in-game messages, etc.)
+
 ***TODO:*** add separate documentation pages for dfgettext, manual patching.
