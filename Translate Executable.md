@@ -15,15 +15,32 @@
 
 ## Conversion `.po` into `.csv` intermediate format with the appropriate encoding
 
-* Download the whole [df-gettext-toolkit](https://bitbucket.org/dfint/df-gettext-toolkit/) ([zip](https://bitbucket.org/dfint/df-gettext-toolkit/get/default.zip)) repository and unpack it into separate folder.
+* Download the whole [df-gettext-toolkit](https://bitbucket.org/dfint/df-gettext-toolkit/) ([**zip**](https://bitbucket.org/dfint/df-gettext-toolkit/get/default.zip)) repository and unpack it into separate directory.
 * Place there the `.po` file, which you've downloaded in the previous section.
-* Run a command from a command line: `python po2csv.py po-filename.po dictionary.csv cp850`
-    * `po-filename.po` must be replaced with the actual file name of the downloaded `.po` file
-    * `cp850` must be replaced with the dos-codepage which supports your language (you can consult with [this](http://www.kostis.net/charsets/trans130/cpdos.htm) page). Currently supported codepages are: `cp737` (Greek), `cp850` (Multilingual - Latin 1), `cp860` (Portugal), `cp866` (DOS Cyrillic), `cp1251` (Windows Cyrillic). If codepage of your language is not supported you can send me a message with your request (see contacts in the bottom of this page).
-    * You can create `.bat` file with this command to run it with a double click.
+* Run the following command from a command line:
+  
+```
+python po2csv.py po-filename.po dictionary.csv cp850
+```
+  
+Notes:
+* `po-filename.po` must be replaced with the actual file name of the downloaded `.po` file
+* `cp850` must be replaced with the dos-codepage which supports your language (you can consult with [this](http://www.kostis.net/charsets/trans130/cpdos.htm) page). Currently supported codepages are: `cp737` (Greek), `cp850` (Multilingual - Latin 1), `cp860` (Portugal), `cp866` (DOS Cyrillic), `cp1251` (Windows Cyrillic). If codepage of your language is not supported you can send me a message with your request (see contacts in the bottom of this page).
+* You can create `.bat` file with this command to run it with a double click.
 
-## Patch translation into 
+## Apply translation to the Dwarf Fortress executable
 
+* Like in the previous section, download the whole [dfrus-py](https://bitbucket.org/dfint/dfrus-py/) ([**zip**](https://bitbucket.org/dfint/dfrus-py/get/default.zip)) repository and unpack it into separate directory.
+* Place `dictionary.csv` file you've got in the previous section into that directory
+* Run the following command from a command line:
+
+```
+python dfrus.py -p "d:\Games\df_42_06_win_s\Dwarf Fortress.exe" -d dictionary.csv --codepage cp850
+```
+
+Notes:
+* `"d:\Games\df_42_06_win_s\Dwarf Fortress.exe"` must be replaced with the actual path to the Dwarf Fortress executable. The new (translated) executable will be created in the same directory as `Dwarf Fortress Patched.exe`.
+* `cp850` must be replaced with the appropriate codepage. See the previous section.
 
 ## Contacts
 
