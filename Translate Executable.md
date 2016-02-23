@@ -18,7 +18,7 @@
 
 * Download the whole [df-gettext-toolkit](https://bitbucket.org/dfint/df-gettext-toolkit/) ([**zip**](https://bitbucket.org/dfint/df-gettext-toolkit/get/default.zip)) repository and unpack it into separate directory.
 * Place there the `.po` file, which you've downloaded in the previous section.
-* Run the following command from a command line:
+* Run the following command from a command line from the directory, where you unpacked the `df-gettext-toolkit` zip archive:
   
 ```
 python po2csv.py po-filename.po dictionary.csv cp850
