@@ -17,8 +17,13 @@
 * **[www.transifex.com/dwarf-fortress-translation/dwarf-fortress/](https://www.transifex.com/dwarf-fortress-translation/dwarf-fortress/)** - a place where we perform translation.
 
 ## Instructions for translators
-* [**How to apply translation from transifex to exe-file**](Translate Executable) **[(En español)](Como aplicar la traducción de Transifex al ajecutable)**
+* [**How to apply translation from transifex to exe-file**](Translate Executable) **[(En español)](Como aplicar la traducción de Transifex al archivo .exe)**
 * How to apply translation from transifex to the text files
     * How to unpack packed text files (help, some in-game messages, etc.)
+
+## Instrucciones para traductores
+* [**Como aplicar la traducción de Transifex al archivo .exe**](Traducir el ejecutable)
+* Como aplicar la traducción de Transifex a los archivos de texto
+    * Como descomprimir los archivos de texto (ayuda, algunos mensajes del juego, etc.)
 
 ***TODO:*** add separate documentation pages for dfgettext, manual patching.
