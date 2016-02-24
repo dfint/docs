@@ -1,0 +1,1 @@
+Como aplicar la traducción de transifex al dwarf fortress.exe
