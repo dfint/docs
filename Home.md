@@ -17,7 +17,7 @@
 * **[www.transifex.com/dwarf-fortress-translation/dwarf-fortress/](https://www.transifex.com/dwarf-fortress-translation/dwarf-fortress/)** - a place where we perform translation.
 
 ## Instructions for translators
-* [**How to apply translation from transifex to exe-file**](Translate Executable) **[(En español)](Traducir el ejecutable)**
+* [**How to apply translation from transifex to exe-file**](Translate Executable)
 * How to apply translation from transifex to the text files
     * How to unpack packed text files (help, some in-game messages, etc.)
 
