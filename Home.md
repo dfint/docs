@@ -1,5 +1,17 @@
 # Dwarf Fortress i18n Project Documentation
 
+## Instructions for translators
+* [**How to apply translation from transifex to exe-file**](Translate Executable)
+* How to apply translation from transifex to the text files
+    * How to unpack packed text files (help, some in-game messages, etc.)
+
+## Instrucciones para traductores
+* [**Como aplicar la traducción de Transifex al archivo ejecutable**](Traducir el ejecutable)
+* Como aplicar la traducción de Transifex a los archivos de texto
+    * Como descomprimir los archivos de texto (ayuda, algunos mensajes del juego, etc.)
+
+# Technical information
+
 ## Project parts:
 
 * **[dfrus-py](https://bitbucket.org/dfint/dfrus-py)** - patching utility for hardcoded strings + some usefull toolkit. [**Some documentation**](dfrus-py). Language: Python 3.4.
@@ -15,15 +27,5 @@
     * **[addcoloredst-temp](https://bitbucket.org/dfint/addcoloredst-temp)** - rewritten in Assembly version of `addcoloredst()` function - changed to use `addst()` function instead of using `addchar()` (in order to output text on "Thoughts and Prefences" and similar screens with ttf font).
 * **[dfgettext](https://bitbucket.org/dfint/df-gettext-toolkit)** - a set of tools which are used to convert parts of files being translated to the [GNU gettext](http://www.gnu.org/software/gettext/) format and aback. Helps make translation with the specialized tools both offline (like [poedit](http://poedit.net/)) and online (like [transifex.com](http://transifex.com/)).
 * **[www.transifex.com/dwarf-fortress-translation/dwarf-fortress/](https://www.transifex.com/dwarf-fortress-translation/dwarf-fortress/)** - a place where we perform translation.
-
-## Instructions for translators
-* [**How to apply translation from transifex to exe-file**](Translate Executable)
-* How to apply translation from transifex to the text files
-    * How to unpack packed text files (help, some in-game messages, etc.)
-
-## Instrucciones para traductores
-* [**Como aplicar la traducción de Transifex al archivo ejecutable**](Traducir el ejecutable)
-* Como aplicar la traducción de Transifex a los archivos de texto
-    * Como descomprimir los archivos de texto (ayuda, algunos mensajes del juego, etc.)
 
 ***TODO:*** add separate documentation pages for dfgettext, manual patching.
