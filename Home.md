@@ -4,7 +4,7 @@
 
 * **[dfrus-py](https://bitbucket.org/dfint/dfrus-py)** - patching utility for hardcoded strings + some usefull toolkit. [**Some documentation**](dfrus-py). Language: Python 3.4.
 * **[stringdumps](https://bitbucket.org/dfint/stringdumps)** - lists of hardcoded strings of DF versions from 0.34.10 through *[the most recent DF version number]* used as templates for translation.
-* **[dfrus patch](https://bitbucket.org/insolor/dfrus/)** for hardcoded strings. Language: OpenEuphoria 4.0.5. **No longer supported.**
+* **[dfrus patch](https://bitbucket.org/insolor/dfrus/src)** for hardcoded strings. Language: OpenEuphoria 4.0.5. **No longer supported.**
 * **[dfint.exe](https://bitbucket.org/dfint/df-i18n)** - its latin-only version. Language: OpenEuphoria 4.0.5. **No longer supported.**
 * Changetext project group:
     * **[Fake_ttf.dll](https://bitbucket.org/dfint/fake_ttf.dll)** - proxy dll, which intercepts text passed from Dwarf Fortress.exe to SDL_ttf.dll and redirects it to changetext.dll. Language: Assembly (fasm)
