@@ -31,7 +31,7 @@ Notes:
 
 ## Apply translation to the Dwarf Fortress executable
 
-* Like in the previous section, download the whole [dfrus-py](https://bitbucket.org/dfint/dfrus-py/) ([**zip**](https://bitbucket.org/dfint/dfrus-py/get/default.zip)) repository and unpack it into separate directory.
+* Like in the previous section, download the whole [dfrus-py](https://bitbucket.org/dfint/dfrus-py/) ([**zip**](https://bitbucket.org/dfint/dfrus-py/get/develop.zip)) repository and unpack it into separate directory.
 * Place `dictionary.csv` file you've got in the previous section into that directory
 * Run the following command from a command line:
 
