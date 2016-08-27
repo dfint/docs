@@ -20,13 +20,12 @@
 * En la carpeta donde usted descomprimio el archivo zip `df-gettext-toolkit` ejecute el siguiente comando desde una línea de comando:
   
 ```
-python po2csv.py po-filename.po dictionary.csv cp850
+python po2csv.py po-filename.po dictionary.csv
 ```
   
 Notas:
 
 * `po-filename.po` debe ser reemplazado por el nombre actual del archivo `.po` descargado
-* `cp850` debe ser reemplazado con el DOS-codepage que su lenguaje soporte (puede consultarlo con [esta](http://www.kostis.net/charsets/trans130/cpdos.htm) pagina). Actualmente los codepage soportados son: `cp737` (Griego), `cp850` (Multilenguaje - Latin 1), `cp860` (Portugal), `cp866` (DOS Cirillico), `cp1251` (Cirillico de Window). Si el codepage de su lenguaje no es soportado, puede enviarme un mensaje con su solicitud (ver contactos al final).
 * Puede crear un archivo `.bat` con este comando para ejecutarlo con un doble click.
 
 ## Aplicar la traducción al ejecutable de Dwarf Fortress
@@ -42,7 +41,7 @@ python dfrus.py -p "d:\Games\df_42_06_win_s\Dwarf Fortress.exe" -d dictionary.cs
 Notas:
 
 * `"d:\...\Dwarf Fortress.exe"` debe ser reemplazado con la ubicación del ejecutable de Dwarf Fortress. El nuevo ejecutable (traducido) será creado en la misma carpeta con el nombre `Dwarf Fortress Patched.exe`.
-* `cp850` debe ser reemplazado por el codepage adecuado. Vea sección previa.
+* `cp850` debe ser reemplazado con el DOS-codepage que su lenguaje soporte (puede consultarlo con [esta](http://www.kostis.net/charsets/trans130/cpdos.htm) pagina). Actualmente los codepage soportados son: `cp737` (Griego), `cp850` (Multilenguaje - Latin 1), `cp860` (Portugal), `cp866` (DOS Cirillico), `cp1251` (Cirillico de Window). Si el codepage de su lenguaje no es soportado, puede enviarme un mensaje con su solicitud (ver contactos al final).
 
 ## Ultimas preparaciones y ejecución del juego
 
