@@ -30,7 +30,7 @@ Notas:
 
 ## Aplicar la traducción al ejecutable de Dwarf Fortress
 
-* Como en la sección previa, descargue el repositorio completo [dfrus-py](https://bitbucket.org/dfint/dfrus-py/) ([**zip**](https://bitbucket.org/dfint/dfrus-py/get/default.zip)) y descomprímalo en un carpeta separada.
+* Como en la sección previa, descargue el repositorio completo [dfrus-py](https://bitbucket.org/dfint/dfrus-py/) ([**zip**](https://bitbucket.org/dfint/dfrus-py/get/develop.zip)) y descomprímalo en un carpeta separada.
 * Coloque el archivo `dictionary.csv` que usted obtuvo en el paso anterior en esta carpeta.
 * Ejecute el siguiente comando desde una línea de comando:
 
