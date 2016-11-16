@@ -52,9 +52,6 @@ Notas:
 
 Si usted tiene problemas con algunos de los pasos, puede escribirnos un mensaje, intentaremos ayudarlo:
 
-* Aqui, en bitbucket: 
-    * [**insolor**](https://bitbucket.org/account/notifications/send/?receiver=insolor) (solo ingles)
-    * [**HessedElohim**](https://bitbucket.org/account/notifications/send/?receiver=HessedElohim)
 * Mensaje en el foro de “bay12”: 
     * [**insolor**](http://www.bay12forums.com/smf/index.php?action=pm;sa=send;u=72717) (solo ingles)
     * [**Hessed.Elohim**](http://www.bay12forums.com/smf/index.php?action=emailuser;sa=email;uid=114853)
