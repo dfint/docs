@@ -53,6 +53,5 @@ Notes:
 
 If you have troubles with some step here, you can write me a message, I will try to help you:
 
-* Here, on bitbucket: [**insolor**](https://bitbucket.org/account/notifications/send/?receiver=insolor)
 * In personal message on bay12forums: [**insolor**](http://www.bay12forums.com/smf/index.php?action=pm;sa=send;u=72717)
 * Send a message on transifex.com: [**insolor**](https://www.transifex.com/user/messages/compose/insolor/)
