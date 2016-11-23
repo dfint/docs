@@ -48,6 +48,11 @@ Notas:
 * Edite init.txt en la carpeta del juego 'data\init', y allí modifique `[TRUETYPE:YES]` y `[PRINT_MODE:2D]`.
 * Finalmente, ejecute el `Dwarf Fortress Patched.exe`
 
+
+## Descarga de los ejecutables (.bat)
+
+https://mega.nz/#F!BhlmVZ6L!L5WboaWdCxSfnI1XX_NWDg  <--- EDITAR SI CORRESPONDIERE
+
 ## Contacto
 
 Si usted tiene problemas con algunos de los pasos, puede escribirnos un mensaje, intentaremos ayudarlo:
