@@ -2,7 +2,7 @@
 
 ## Translation utility
 
-**To apply translation to the game it's recommended to use [df-translation-client](https://bitbucket.org/dfint/df-translation-client/downloads) utility.**
+To apply translation to the game it's recommended to use **[df-translation-client](https://bitbucket.org/dfint/df-translation-client/downloads) utility**.
 
 ## Instructions for translators
 * [**How to apply translation from transifex to exe-file**](Translate Executable)
