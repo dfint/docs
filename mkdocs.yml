@@ -1,0 +1,14 @@
+site_name: Dwarf Fortress localization project
+
+theme:
+  name: material
+  language: en
+
+extra:
+  alternate:
+    - name: English
+      link: /en/ 
+      lang: en
+    - name: Русский
+      link: /ru/
+      lang: ru
