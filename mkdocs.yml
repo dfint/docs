@@ -4,11 +4,21 @@ theme:
   name: material
   language: en
 
-extra:
-  alternate:
-    - name: English
-      link: /en/ 
-      lang: en
-    - name: Русский
-      link: /ru/
-      lang: ru
+#extra:
+#  alternate:
+#    - name: English
+#      link: /en/
+#      lang: en
+#    - name: Русский
+#      link: /ru/
+#      lang: ru
+
+plugins:
+  - i18n:
+      default_language: en
+      docs_structure: folder
+      languages:
+        en:
+          name: English
+        ru:
+          name: Русский
