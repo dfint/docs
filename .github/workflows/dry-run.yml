@@ -29,4 +29,4 @@ jobs:
         run: poetry install --no-root
 
       - name: Buld docs
-        run: poetry run build
+        run: poetry run mkdocs build
