@@ -4,6 +4,12 @@ on:
     branches:
       - master 
       - main
+    paths:
+      - '.github/workflows/deploy-docs.yml'
+      - 'pyproject.toml'
+      - 'poetry.lock'
+      - 'docs/*'
+      - 'mkdocs.yml'
 
 permissions:
   contents: write
