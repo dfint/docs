@@ -19,3 +19,8 @@ plugins:
           name: Русский
       reconfigure_material: true
       reconfigure_search: true
+
+extra:
+  analytics:
+    provider: google
+    property: G-6PDFGEBG9P
