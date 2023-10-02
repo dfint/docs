@@ -408,13 +408,13 @@ test = ["autoflake", "black", "isort", "pytest"]
 
 [[package]]
 name = "mkdocs-static-i18n"
-version = "1.0.2"
+version = "1.0.6"
 description = "MkDocs i18n plugin using static translation markdown files"
 optional = false
 python-versions = ">=3.7"
 files = [
-    {file = "mkdocs_static_i18n-1.0.2-py3-none-any.whl", hash = "sha256:a9c65c009f9108d9c155b691002ee8da0d0a14c379323de8c157cf79a4cc6aa5"},
-    {file = "mkdocs_static_i18n-1.0.2.tar.gz", hash = "sha256:a4e39a465378f68f92110b423116b937a929286441bdad4da068272db408f5fe"},
+    {file = "mkdocs_static_i18n-1.0.6-py3-none-any.whl", hash = "sha256:0d3e9ea583834143a360f24e35f8a8bed46d47fde4092acce2568ab61b3d12fc"},
+    {file = "mkdocs_static_i18n-1.0.6.tar.gz", hash = "sha256:605e1c3685612df960f58a81e38d31690ac098cfd31c76e4fad00c37359b334e"},
 ]
 
 [package.dependencies]
@@ -777,4 +777,4 @@ watchmedo = ["PyYAML (>=3.10)"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "c259aeb4b4df614b1f86913fa615dd35cd46fdd64145488c5a57630b1c743909"
+content-hash = "6e7b5ae69dc524d2530decc765b93bd289c6e7f047e48d668812e51c31d3c14c"
