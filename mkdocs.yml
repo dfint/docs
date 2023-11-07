@@ -1,4 +1,5 @@
 site_name: Dwarf Fortress localization project
+site_url: https://dfint.github.io/docs/
 
 theme:
   name: material
