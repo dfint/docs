@@ -6,7 +6,7 @@ theme:
 
 plugins:
   - i18n:
-      docs_structure: folder
+      docs_structure: suffix
       fallback_to_default: true
       languages:
         - build: true
