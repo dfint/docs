@@ -8,7 +8,7 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.10"
-mkdocs-material = "^9.4.7"
+mkdocs-material = "^9.4.14"
 mkdocs-minify-plugin = "^0.7.1"
 mkdocs-redirects = "^1.2.1"
 mkdocs-static-i18n = "^1.2.0"
