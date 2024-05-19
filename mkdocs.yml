@@ -8,7 +8,7 @@ theme:
   language: en
   features:
     - content.action.edit
-    - content.action.view
+    # - content.action.view
 
 plugins:
   - i18n:
