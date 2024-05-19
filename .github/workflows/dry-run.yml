@@ -1,9 +1,9 @@
 name: Docs dry build
 on:
-  push:
-    branches:
-      - master 
-      - main
+  # push:
+  #   branches:
+  #     - master 
+  #     - main
   pull_request:
     branches:
       - master
