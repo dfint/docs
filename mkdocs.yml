@@ -1,6 +1,6 @@
 site_name: Dwarf Fortress localization project
 site_url: https://dfint.github.io/docs/
-repo_url: https://github.com/dfint/dfint.github.io/
+repo_url: https://github.com/dfint/docs/
 edit_uri: blob/master/docs/
 
 theme:
