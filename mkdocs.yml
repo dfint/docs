@@ -8,7 +8,8 @@ theme:
   language: en
   features:
     - content.action.edit
-    # - content.action.view
+  palette:
+    primary: black
 
 plugins:
   - i18n:
