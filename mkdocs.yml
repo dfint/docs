@@ -25,6 +25,8 @@ plugins:
           name: Русский
       reconfigure_material: true
       reconfigure_search: true
+  - git-revision-date-localized:
+      enabled: true
 
 extra:
   analytics:

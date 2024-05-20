@@ -12,6 +12,7 @@ mkdocs-material = "^9.5.20"
 mkdocs-minify-plugin = "^0.8.0"
 mkdocs-redirects = "^1.2.1"
 mkdocs-static-i18n = "^1.2.2"
+mkdocs-git-revision-date-localized-plugin = "^1.2.5"
 
 [build-system]
 requires = ["poetry-core"]
