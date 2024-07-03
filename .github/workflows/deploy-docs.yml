@@ -2,7 +2,18 @@ name: Deploy docs
 on:
   push:
     branches:
-      - master 
+      - master
+      - main
+    paths:
+      - '.github/workflows/deploy-docs.yml'
+      - 'pyproject.toml'
+      - 'poetry.lock'
+      - 'docs/*'
+      - 'mkdocs.yml'
+
+  pull_request:
+    branches:
+      - master
       - main
     paths:
       - '.github/workflows/deploy-docs.yml'
@@ -35,5 +46,9 @@ jobs:
       - name: Install dependencies
         run: poetry install --no-root
 
+      - name: Buld docs
+        run: poetry run mkdocs build
+
       - name: Deploy docs
+        if: github.event_name != 'pull_request'
         run: poetry run mkdocs gh-deploy --force
